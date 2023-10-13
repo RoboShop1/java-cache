@@ -1,3 +1,3 @@
 source /common/parameters
-java shipping.jar
+java -jar shipping.jar
 
