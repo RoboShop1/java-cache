@@ -15,6 +15,7 @@ jobs:
           key: maven-${{ runner.os }}-${{ hashFiles('**/pom.xml') }}
           restore-keys: |
             maven-${{ runner.os }}-
+            maven-
           path: |
             **/target
 
