@@ -12,6 +12,7 @@ jobs:
       - name: Cache
         uses: actions/cache@v4
         with:
+          key: maven-${{ runner.os }}-${{ hashFiles('**/pom.xml') }}
           path: |
             **/target
 
